@@ -1,13 +1,13 @@
 # Do you 모발? 두피유형에 따른 가발 캡 소재 추천
 ## 프로젝트 개요
 <div align="left">
- <img width="100%" src="https://github.com/tlsdmswn01/NLP_Project---Audio/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20PPT/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EA%B0%9C%EC%9A%94.png?raw=true"/>  
+ <img width="100%" src="https://github.com/tlsdmswn01/CV_Project_ImageClassification/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20PPT/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EA%B0%9C%EC%9A%94.PNG?raw=true"/>  
 </p>
 
  
  ## 최종 결과물
  <p align='left'>
- <img width="100%" src="https://github.com/tlsdmswn01/NLP_Project---Audio/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20PPT/%EC%B5%9C%EC%A2%85%20%EA%B2%B0%EA%B3%BC%EB%AC%BC.png?raw=true"/>
+ <img width="100%" src= "https://github.com/tlsdmswn01/CV_Project_ImageClassification/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20PPT/%EC%B5%9C%EC%A2%85%20%EA%B2%B0%EA%B3%BC%EB%AC%BC.PNG?raw=true"/>
 
 </div>
 
@@ -15,9 +15,9 @@
 
 
 ## 🗂️프로젝트 소개
-본 프로젝트는 성조 시각화 자료와 성조 운율 점수 제시를 통해,  
-* 학습자들이 중국어 선생님 없이 자신의 성조를 스스로 피드백하고,
-* 학습자들의 자가학습을 도와주는 보조자료 제작에 목표를 둡니다.
+본 프로젝트는 가발 소비자의 가발 후유증을 예방하고자,  
+* 고객이 자신의 두피를 자가 진단할 수 있고,
+* 자신의 두피유형에 적합한 가발 캡 소재 정보를 제공받을 수 있게 합니다.
 
 --- 
 
