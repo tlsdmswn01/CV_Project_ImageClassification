@@ -59,31 +59,37 @@
 
 
 ## 📃아이디어 소개
+ <p align='left'>
+ <img width="100%" src= "https://github.com/tlsdmswn01/CV_Project_ImageClassification/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20PPT/%EC%95%84%EC%9D%B4%EB%94%94%EC%96%B4%20%EC%86%8C%EA%B0%9C.PNG?raw=true"/>
 
+</div>
+
+</p>
 
 
 
 
  ## 분석 및 모델링 과정 
- ### 음성 데이터 전처리
+ ### 라벨 데이터 전처리
+ 프로젝트 목표 : **두피 유형별** 
+ 문제인식 : 원 데이터의 라벨이 두피 증상과 중증도 정보  
+ 문제해결 : 데이터 구축기관의 구축 활용 가이드를 바탕으로 두피 증상 데이터에 대한 라벨링 작업 실행 
  
- 문제인식 : 음성 데이터 길이가 모두 달랐습니다.
+  <p align='left'>
+ <img width="100%" src= "https://github.com/tlsdmswn01/CV_Project_ImageClassification/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20PPT/%EB%9D%BC%EB%B2%A8%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%A0%84%EC%B2%98%EB%A6%AC.PNG?raw=true"/>
 
- - 짤게는 3초, 길게는 70초까지 음성 데이터 길이가 다양했습니다.
- - 데이터 패딩시 음성을 자르게 되면 몇몇 음성은 초반 음성에 대한 점수로 모델이 학습할 수 있어 이로 인한 왜곡이 우려되어 10초라는 특정 시간대 이후로의 데이터는 삭제했습니다.
-   (10초 이전 : 데이터가 90%이상 분포하고 있는 구간 )
+</div>
 
-#### 음성 정보 채택 및 추출
+</p>
 
-**다양한 음성 정보**  
+#### Resnet 모델링을 위한 이미지 전처리
 
-- Mel Spectogram : 사람의 청각인지를 반영하기 위한 스펙초그램에 Mel sclae를 적용한 특징 추출 기법
-  (Mel Scale : 실제 주파수 정보를 인간의 청각 구조를 반영하여 수학적으로 변환하기 위한 방법
-  예- 돌고래 소리의 주파수가 매우 높아 사람이 듣지 못하는 개념을 스펙토그램에 반영한 것)
-- MFCC(Mel-Frequency Cepstral Coefficients) : 사람의 청각 구조와 음색의 차이를 반영한 음성 데이터 특징 추출 기법
-  (Ceptral 분석 : 배음의 구조를 파악해 음색의 차이를 구별하는 분석법 - 악기나 성대의 구조 차이에의해 발생)
-- 크로마그램 : 인간 청각이 옥타브 차이가 나는 주파수를 가진 두 음을 유사음으로 인지한다는 음악이론에 기반
-  (12개의 Bin으로 특징이 추출된다. - 도,도샵,레, 레샵 ~ 시 12개 음계값)
+  <p align='left'>
+ <img width="100%" src= "https://github.com/tlsdmswn01/CV_Project_ImageClassification/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20PPT/%EC%9D%B4%EB%AF%B8%EC%A7%80%20%EC%A0%84%EC%B2%98%EB%A6%AC.PNG?raw=true"/>
+
+</div>
+
+</p>
 
 **크로마그램 채택** 
 
